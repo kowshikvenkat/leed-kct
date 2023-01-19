@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("image.jpg");
+
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+}
+*{
+    opacity: 1;
+}
+nav{
+    margin:0;
+    display: flex;
+background-color: rgb(88, 48, 250);
+
+}
+.nav-div{
+    z-index: 1;
+    position: fixed;
+    top:0;
+    width:100%
+}
+nav div{
+
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav div h5:hover{
+color:white;
+cursor:pointer
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px grey;
+}
+ul li{
+    margin-left: 8%;
+    color:#0000b0
+}
+.heading{
+    /* backdrop-filter: blur(2px); */
+}
+.initiative{
+    background-color:tan;
+    margin-top: 150px;
+    color:white;
+    text-align: center;
+    padding:10px;
+    padding-bottom: 40px;
+}
+.initiative h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color:black
+}
+.education{
+    padding-top:30px;
+    padding-bottom:30px;
+
+    margin-top: 300px;
+    backdrop-filter: blur(5px);
+}
+.education img{
+width:200px;
+height:200px;
+}
+.education h4{
+    margin-top: 30px;
+    color:white;
+    text-shadow: 0 0 10px grey;
+}
+.stats{
+margin-top: 200px;
+padding-top:60px;
+padding-bottom: 60px;
+padding-left: 30px;
+padding-right: 30px;
+background-color: white;
+}
+.stats  img{
+width:10%;
+height:10%
+}
+.leader{
+    margin-top:200px ;
+    margin-bottom: 200px;
+  
+}
+.leader div{
+    backdrop-filter: blur(3px);
+}
+.footer h3{
+    color:white;
+    font-weight: 200;
+}
